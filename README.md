@@ -1,12 +1,8 @@
-UptimeFlare
-==============
-
+# UptimeFlare
 A PHP web hook to handle down notifications from uptimerobot. If a DOWN notification is received, it'll change the A record of a domain on cloudflare to a backup IP set by you.
 
-<br><br>
-License: MIT<br>
-Dependencies: Web Server, PHP, php-curl lib
-<br><br>
+License: MIT   
+Dependencies: Web Server, PHP, php-curl lib   
 
 Setup: <br>
 1. I suggest you rename the php file to something obscure. <br>
@@ -20,6 +16,6 @@ Setup: <br>
 
 With this setup, a website shouldn't have a downtime of more than ~6 minutes, assuming your DNS provider does not cache queries.
 <br><br>
-You can reach me on <a href="http://twitter.com/blackdotsh/"> twitter </a>.
+Credits: <a href="http://twitter.com/blackdotsh/">Blackdotsh</a>.
 <br><br>
-If you're looking for StatusCake + Cloudflare, you can find it <a href="https://github.com/blackdotsh/StatusCake-CloudFlare"> here </a>.
+
